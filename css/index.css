@@ -11,7 +11,28 @@
     background-size: cover;
     position:relative;
 }
-
+/* 
 #book{
     color: rgb(252, 174, 73);
+} */
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150 px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
 }
