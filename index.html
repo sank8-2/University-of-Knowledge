@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Knowledge</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img src="media/logo.png" alt="University of Knowledge"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -20,6 +23,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -29,5 +33,25 @@
         </div>
 
     </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Our University ranges amongst choices of 2000 Different Courses.</p>
+    </section>
+
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
 </body>
 </html>
