@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/index.html"><img src="https://gcdn.pbrd.co/images/nkhcsz1rFtht.png?o=1" alt="University of Knowledge"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/pages/about.html">ABOUT</a></li>
+                    <li><a href="/pages/course.html">COURSE</a></li>
+                    <li><a href="/pages/blog.html">BLOG</a></li>
+                    <li><a href="/pages/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia esse molestias corrupti debitis explicabo, iste consequuntur ipsam, harum eos praesentium laboriosam deleniti dignissimos consectetur dolores reprehenderit libero suscipit sint placeat iusto pariatur sed vero ut dolorem. Quibusdam officiis illum accusantium?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE</a>
+            </div>
+            <div class="about-col">
+                <img src="https://images.pexels.com/photos/3768236/pexels-photo-3768236.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum molestias delectus fuga doloremque, maxime tempora,<br> aspernatur doloribus aliquid dolorum illum aperiam, quia quo! Reprehenderit, numquam.
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by MonkTech</p>
+    </section>
+
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
