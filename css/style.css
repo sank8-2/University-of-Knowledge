@@ -504,3 +504,7 @@ h3{
     outline: none;
     background: #f0f0f0;
 }
+
+.comment-form button{
+    margin: 10px 0;
+}
